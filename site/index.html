@@ -1,12 +1,131 @@
 <meta charset="UTF-8">
 <!DOCTYPE html>
+
 <html>
-<head>
-      <title> Sapa-site </title>
+
+<style>
+   
+    h1 {
+        color:blueviolet;
+        font-size: 40px;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight:bolder;
+        font-style:oblique;
+        background-color:darkseagreen;
+        opacity: .7;
+        text-align: center;
+    }
+
+    h2 {
+        color:indianred;
+        background-color:cornflowerblue;
+        font-size: 30px;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+
+    }
+    h3 {
+        color:forestgreen;
+        background-color:lightcoral;
+        font-size: 25px;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+
+    }
+    
+    h4 {
+
+        color:darkgoldenrod;
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        text-align:justify;
+    }
+    
+    
+    .highlight {
+        color:darkcyan;
+        background-color:greenyellow;
+        font-weight: bolder;
+        font-style:oblique;
+        font-stretch: narrower;
+        font-family: monospace;
+    }
+    p.highlight {
+        color:crimson;
+    }
+
+    article > p {
+        color:darkblue;
+    }
+</style>
+
+<head class="highlight">
+      <title> Site </title>
 </head>
+
 <body>
-    <p>Este é um parágrafo descritivo.</p>
+    <header class="highlight">
+        Elemento header: aqui tem infos do site, logo, algumas tags
+        <nav> &lt;aqui é a tag 'nav', que tem alguns links para partes diferentes do site 
+             <a href="https://solanaceae26.github.io/coursera_test/site/" target="_blank" title="descrição de exemplo: versão upada no git, mas era pra ser link local"> (link de exemplo)</a> 
+             &amp; ajuda na navegação &gt;</nav>
+    </header>
+    <h1>Site</h1>
+    <h2>nada como um dia após o outro</h2>
+    <h3>... e outro</h3>
+    <h4>... e uma noite no meio</h4>
+    <h5>... e outro</h5>
+    <h6>... e outro</h6>
+    
+    <ol class="highlight">
+        <li>e uma</li>
+        <li>lista</li>
+        <li>organizada</li>
+        <li>simples
+        <li><p>Com uma sublista índice</p></li>
+            <ol>
+                <li><a href="#section1">sessão 1</a></li>
+                <li><a href="#section2">sessão 2</a></li>
+                <li><a href="#section3">sessão 3</a></li>
+                <li><a href="#section4">sessão 4</a></li>
+                <ol>
+                    <li>e mais uma</li>
+                    <li>sublista organizada</li>
+                </ol>
+            </ol>
+        </li>
+    </ol>
+
+
+<section> 
+    <article id="section1"><b>artigo 1: </b> <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></article>
+    <article id="section2"><b>artigo 2: </b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></article>
+    <article id="section3"><b>artigo 3: </b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></article>
+    <article id="section4"><b>artigo 4: </b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></article>
+</section>
+
+<section>
+    <p>
+        <img src="https://live.staticflickr.com/8280/8711378816_39cc228e5c_b.jpg" width="500" height="300" alt="foto de gato">
+        &quot; <p>BEHOLD&nbsp;MY&nbsp;GLORY</p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus et molestie ac feugiat sed lectus vestibulum. Odio eu feugiat pretium nibh ipsum consequat nisl vel pretium. Gravida quis blandit turpis cursus in hac habitasse. Fermentum iaculis eu non diam phasellus. Varius duis at consectetur lorem donec massa sapien faucibus. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Habitasse platea dictumst quisque sagittis purus sit amet volutpat. Maecenas accumsan lacus vel facilisis volutpat. Integer vitae justo eget magna fermentum iaculis eu non. Egestas diam in arcu cursus euismod quis viverra nibh cras. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Pulvinar pellentesque habitant morbi tristique senectus et. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Enim ut tellus elementum sagittis vitae et leo. Odio morbi quis commodo odio aenean sed adipiscing. &quot;
+    </p>
+</section>
+    <aside> tag aside: algumas infos relacionadas ao tópico principal</aside>
 </body>
+
+
+   <p>
+   <h2><a href="#top">Back to top</a></h2>
+   </p>
+    &copy; Copyright
+
 
 
 </html>
