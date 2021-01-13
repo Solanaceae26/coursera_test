@@ -63,45 +63,63 @@
     article > p {
         color:darkblue;
     }
+
+    a:link, a:visited {
+       text-decoration: none;
+       border: 2px dotted rebeccapurple; 
+       color:rgb(252, 0, 210)
+       
+    } 
+    a:hover, a:active {
+        background-color:cornsilk;
+    }
+    section div li:nth-child(odd) {
+        list-style:disc;
+    }
+
+    
+    }
 </style>
 
 <head class="highlight">
-      <title> Site </title>
-</head>
+      <title> Gatinhos </title>
+</head> 
 
 <body>
     <header class="highlight">
         Elemento header: aqui tem infos do site, logo, algumas tags
         <nav> &lt;aqui é a tag 'nav', que tem alguns links para partes diferentes do site 
-             <a href="https://solanaceae26.github.io/coursera_test/site/" target="_blank" title="descrição de exemplo: versão upada no git, mas era pra ser link local"> (link de exemplo)</a> 
+             <a href="http://www.google.com" target="_blank" title="descrição de exemplo"> link de exemplo</a> 
              &amp; ajuda na navegação &gt;</nav>
     </header>
-    <h1>Site</h1>
-    <h2>nada como um dia após o outro</h2>
-    <h3>... e outro</h3>
-    <h4>... e uma noite no meio</h4>
-    <h5>... e outro</h5>
-    <h6>... e outro</h6>
+    <h1>Gatinhos</h1>
+    <h2>miau</h2>
+    <h3>miau</h3>
+    <h4>miau</h4>
+    <h5>miau</h5>
+    <h6>miau</h6>
     
+<section>
     <ol class="highlight">
         <li>e uma</li>
         <li>lista</li>
         <li>organizada</li>
         <li>simples
         <li><p>Com uma sublista índice</p></li>
-            <ol>
-                <li><a href="#section1">Artigo 1</a></li>
-                <li><a href="#section2">Artigo 2</a></li>
-                <li><a href="#section3">Artigo 3</a></li>
-                <li><a href="#section4">Artigo 4</a></li>
-                <ol>
-                    <li>e mais uma</li>
-                    <li>sublista organizada</li>
-                </ol>
-            </ol>
+           <div>
+                <ul>
+                    <li><a href="#section1">Artigo 1</a></li>
+                    <li><a href="#section2">Artigo 2</a></li>
+                    <li><a href="#section3">Artigo 3</a></li>
+                    <li><a href="#section4">Artigo 4</a></li>
+                <ul>
+                    <li>miau</li>
+                    <li>miau</li>
+                </ul>
+            </div>
         </li>
     </ol>
-
+</section>
 
 <section> 
     <article id="section1"><b>artigo 1: </b> <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></article>
